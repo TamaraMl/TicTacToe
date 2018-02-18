@@ -1,0 +1,4 @@
+.flex-row {
+    display: grid;
+    grid-template: repeat(3, 50px) / repeat(3, 50px); /*for some reason, this can't be compiled in less file -.- */
+}

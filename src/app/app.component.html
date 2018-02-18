@@ -1,0 +1,11 @@
+<div class="body">
+    <h1>Tic Tac Toe</h1>
+    <div class="mb15">{{message}} {{user}}</div>
+
+    <div class="flex-row">
+        <div class="flex-item" *ngFor="let number of [1,2,3,4,5,6,7,8,9]">
+            <button type="button" (click)="myMethod($event)" class="js-button btn-field">-</button>
+        </div>
+    </div>
+    <button type="button" (click)="resetGame()" class="btn-reset">Reset game</button>
+</div>
